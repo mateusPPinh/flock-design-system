@@ -6,9 +6,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 Flock is a great way for create fast components, it's very simple to use.
 
 
-## Fo run:
+## For run:
 
-just tip on your terminal: 
+just type on your terminal: 
 
 `yarn add flock-design-sytem` or `npm i flock-design-system`
 
