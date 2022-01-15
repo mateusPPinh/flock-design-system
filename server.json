@@ -1,0 +1,18 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Awesome Mousepad",
+      "price": 89.00,
+      "avaliable": true,
+      "img": "https://m.media-amazon.com/images/I/5111lkeOWjL._AC_SY355_.jpg"
+    },
+    {
+      "id": 2,
+      "productName": "Black Mousepad",
+      "price": 89.00,
+      "avaliable": true,
+      "img": "https://m.media-amazon.com/images/I/31gQUuh7KsL._AC_SY355_.jpg"
+    }
+  ]
+}
