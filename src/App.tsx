@@ -8,7 +8,7 @@ export default function App() {
     <ThemeProvider theme={theme}>
       <GlobalStyle />
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-        <Typogrpahy fontFamily="fontBold" mt={140} fontSize="52" element="h1">Name</Typogrpahy>
+        <Typogrpahy fontFamily="fontBMedium" mt={140} fontSize="52" element="h1">Name</Typogrpahy>
       </div>
     </ThemeProvider>
   )

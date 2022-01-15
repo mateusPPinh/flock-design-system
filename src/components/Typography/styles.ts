@@ -3,7 +3,7 @@ import styled, { css } from 'styled-components';
 type FontProps = {
   fontSize?: string | number;
   fontWeight?: string;
-  fontFamily?: 'fontBold' | 'fontBMedium';
+  fontFamily?: string;
   element?: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' | 'p' | 'span';
   mr?: string | number;
   ml?: string | number;
@@ -11,16 +11,7 @@ type FontProps = {
 }
 
 const stylesProps = css<FontProps>`
-  font-family: ${({ fontFamily }) => {
-    switch (fontFamily) {
-      case 'fontBold':
-        return 'UberMoveBold';
-      case 'fontBMedium':
-        return 'UberMoveMedium';
-      default:
-        return null;
-    }
-  }};
+  font-family: ${(props) => props.fontFamily ? props.fontFamily : 'Roboto'};
 
   margin-top: ${({ mt }) => {
     if (mt) {

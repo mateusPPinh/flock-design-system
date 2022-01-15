@@ -12,7 +12,7 @@ import {
 
 // Create abstration for font component
 type FontProps = {
-  fontFamily?: 'fontBold' | 'fontBMedium';
+  fontFamily?: string;
   fontSize?: string;
   fontWeight?: string;
   children?: React.ReactNode;

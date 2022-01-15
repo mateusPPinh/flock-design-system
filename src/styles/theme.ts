@@ -4,5 +4,8 @@ export default {
     primary: '#FA9269',
     secondary: '#000000',
     tertiary: '#EEEEEE',
+  },
+  typography: {
+    fontFamily: 'Roboto',
   }
 }
