@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Typogrpahy } from '../components/Typography';
+import { Typogrpahy } from '../../components/Typography';
 import theme from '../styles/theme';
 import { ThemeProvider } from 'styled-components'
 
