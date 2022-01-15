@@ -22,7 +22,7 @@ type FontProps = {
   mt?: number | string;
 }
 
-export const Fonts = ({children, fontFamily, fontSize, fontWeight, mt, element, ml, mr}: FontProps) => {
+export const Typogrpahy = ({children, fontFamily, fontSize, fontWeight, mt, element, ml, mr}: FontProps) => {
   const props = { element, fontFamily, fontSize, fontWeight, mt, ml, mr };
 
   switch(element) {
