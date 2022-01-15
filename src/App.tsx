@@ -1,14 +1,15 @@
 import GlobalStyle from './styles/globals';
-// import { Main } from './components/Main';
 import { ThemeProvider } from 'styled-components'
 import theme from './styles/theme'
-import { Main } from './components/Main';
+import { Typogrpahy } from './components/Typography';
 
 export default function App() {
   return (
     <ThemeProvider theme={theme}>
       <GlobalStyle />
-      <Main />
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+        <Typogrpahy fontFamily="fontBold" mt={140} fontSize="52" element="h1">Name</Typogrpahy>
+      </div>
     </ThemeProvider>
   )
 }
